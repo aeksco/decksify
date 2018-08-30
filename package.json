@@ -1,6 +1,6 @@
 {
   "name": "decksify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A magical slide deck site generator",
   "author": "Alexander Schwartzberg <aeksco@gmail.com>",
   "scripts": {
