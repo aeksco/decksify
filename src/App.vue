@@ -21,9 +21,11 @@ const htmlTag = '<!-- HTML -->'
 export default {
   props: ['url', 'revealOptions'], // TODO - provide default prop values
   async created () {
+
+    const url = 'http://localhost:3003/PITCHME.md'
     console.log(this)
     this.fetching = false
-    let response = await fetch(this.url)
+    let response = await fetch(url)
     let raw = await response.text()
     this.raw = raw
     this.fetching = false
